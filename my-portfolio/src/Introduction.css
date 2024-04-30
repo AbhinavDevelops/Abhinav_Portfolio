@@ -1,0 +1,66 @@
+/* Introduction.css */
+
+.introduction {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+  }
+  
+  .container {
+    max-width: 1200px; /* Adjust max-width as needed */
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .intro-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+/* Introduction.css */
+
+/* Introduction.css */
+
+.intro-image-container {
+    width: 300px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    border-radius: 50%; /* Display the image as a circle */
+    overflow: hidden; /* Hide image overflow */
+    margin-bottom: 20px; /* Add space between image and text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+  }
+  
+  .intro-image {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+    filter: grayscale(60%); /* Apply grayscale effect to the image */
+    transition: filter 0.3s ease; /* Add transition effect */
+  }
+  
+  .intro-image:hover {
+    filter: grayscale(0%); /* Remove grayscale effect on hover */
+  }
+  
+  
+  
+  .intro-text h1,
+  .intro-text p {
+    margin: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .intro-content {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .intro-text {
+      text-align: left;
+    }
+  
+    .intro-image-container {
+      margin-right: 40px; /* Add space between image and text on larger screens */
+    }
+  }
+  

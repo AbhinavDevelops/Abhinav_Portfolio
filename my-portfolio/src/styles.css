@@ -1,0 +1,24 @@
+/* styles.css */
+
+.introduction {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+  }
+  
+  .intro-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .intro-text {
+    max-width: 600px;
+  }
+  
+  .intro-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
